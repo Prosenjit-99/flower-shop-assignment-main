@@ -1,0 +1,24 @@
+/* shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+background: #E55473;
+border: 0;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+
+}
+/* header related style */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+.banner{
+    color: #272727;
+    padding: 30px 30px 30px 150px;
+
+}
