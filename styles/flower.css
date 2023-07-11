@@ -1,24 +1,54 @@
 /* shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
-background: #E55473;
-border: 0;
-color: white;
-font-size: 20px;
-font-weight: 700;
-padding: 20px 43px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
 
 }
+
 /* header related style */
-.header{
+.header {
     background: rgba(229, 84, 115, 0.10);
-    
-}
-.banner{
-    color: #272727;
-    padding: 30px 30px 30px 150px;
 
+}
+
+.banner {
+    color: #272727;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greating {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+/* main section stle */
+.about {
+    text-align: center;
+    padding: 50px;
+    color: #272727;
+}
+
+.text-great {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
 }
