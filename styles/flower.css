@@ -151,15 +151,23 @@ main section {
     flex-shrink: 0;
 }
 .expencive{
+    display: flex;
     text-align: center;
     background: rgba(5, 151, 160, 0.15);
     padding: 100px 0 0 0 ;
+    justify-content: space-between;
     
     
     
 }
 .expencive-img{
-    gap: 24px;
+    padding-right: 400px;
+    
+}
+.expancive-great{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    padding-left: 100px;
 }
 
 /* footer */
@@ -167,6 +175,8 @@ main section {
     text-align: center;
     background: #111010;
     padding: 80px;
+
+   
    
 }
 .footer-great{
