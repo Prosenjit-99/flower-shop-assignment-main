@@ -42,6 +42,7 @@ body {
 /* main section stle */
 main section {
     margin-top: 130px;
+   
     
 }
 
@@ -127,7 +128,21 @@ font-size: 30px;
     width: 342px;
 height: 396px;
 gap: 24px;
-margin: 200px 100px;
+margin:  240px;
+
+
+}
+.background-image{
+    text-align: center;
+    padding-bottom: 200px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    margin: 240px;
+}
+.email{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+
 
 
 }
