@@ -40,9 +40,10 @@ body {
 }
 
 /* main section stle */
-main section{
+main section {
     margin-top: 130px;
 }
+
 .about {
     text-align: center;
     padding: 50px;
@@ -60,7 +61,7 @@ main section{
     display: flex;
     margin: 300px;
     gap: 24px;
-    
+
 
 }
 
@@ -70,16 +71,37 @@ main section{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-#skill-info{
+
+#skill-info {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15); 
+    background: rgba(5, 151, 160, 0.15);
 }
-#skill{
+
+#skill {
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
-.images{
+
+.images {
     padding: 0;
     margin-bottom: 0;
 
+}
+
+.discuent {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 230px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 420px;
+  
+   
+    
+}
+.discuent-pic{
+    width: 200px;
+    padding: 100px;
+  
 }
