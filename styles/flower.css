@@ -42,6 +42,7 @@ body {
 /* main section stle */
 main section {
     margin-top: 130px;
+    
 }
 
 .about {
@@ -70,16 +71,19 @@ main section {
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    padding-bottom: 0px;
 }
 
 #skill-info {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    padding-bottom: 0;
 }
 
 #skill {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    padding-bottom: 0;
 }
 
 .images {
@@ -117,4 +121,13 @@ font-size: 30px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
     margin-bottom: 100px;
+}
+.images-insta{
+    display: flex;
+    width: 342px;
+height: 396px;
+gap: 24px;
+margin: 200px 100px;
+
+
 }
