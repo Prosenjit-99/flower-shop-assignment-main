@@ -105,3 +105,16 @@ main section {
     padding: 100px;
   
 }
+/* discrivetion */
+.discrivetion{
+    
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 30px;
+}
+.discrivetion-grating{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    margin-bottom: 100px;
+}
