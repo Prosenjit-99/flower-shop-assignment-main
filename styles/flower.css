@@ -61,8 +61,10 @@ main section {
 
 .skills-container {
     display: flex;
-    margin: 300px;
+    margin: 200px;
     gap: 24px;
+    padding: 0 0 240px 240px;
+    margin-bottom: 0;
 
 
 }
@@ -97,13 +99,10 @@ main section {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     padding: 230px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     min-height: 420px;
-
-
-
 }
 
 .discuent-pic {
@@ -132,7 +131,8 @@ main section {
     width: 342px;
     height: 396px;
     gap: 24px;
-    margin: 140px;
+    margin: 200px;
+
 
 
 }
@@ -149,6 +149,17 @@ main section {
     width: 700px;
     height: 64px;
     flex-shrink: 0;
+}
+.expencive{
+    text-align: center;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 0 0 0 ;
+    
+    
+    
+}
+.expencive-img{
+    gap: 24px;
 }
 
 /* footer */
